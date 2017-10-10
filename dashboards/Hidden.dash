@@ -7,6 +7,6 @@ layout:
   - include: items
   - include: navigation
   - include: top_panel
-  - mbrmotion_automations
+  - mbrmotion_automations, dbrmotion_automations, gbrmotion_automations
   -
   - load_mbr, load_guestrooms, load_bathrooms, spacer, spacer, load_main

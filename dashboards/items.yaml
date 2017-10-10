@@ -167,6 +167,18 @@ mbrmotion_automations:
   use_hass_icon: 1
   entity: input_boolean.mbrmotion_automations
 
+gbrmotion_automations:
+  title: Guest Bath Motion
+  widget_type: input_boolean
+  use_hass_icon: 1
+  entity: input_boolean.gbrmotion_automations
+
+dbrmotion_automations:
+  title: Den Bath Motion
+  widget_type: input_boolean
+  use_hass_icon: 1
+  entity: input_boolean.dbrmotion_automations
+
 occupancy:
   widget_type: input_boolean
   widget_style: "background: #222"
