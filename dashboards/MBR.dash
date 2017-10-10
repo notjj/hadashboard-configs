@@ -1,0 +1,12 @@
+title: Woodinville
+widget_dimensions: [115, 115]
+widget_margins: [3,3]
+columns: 6
+
+layout:
+  - include: items
+  - include: navigation
+  - include: top_panel
+  - spacer, mbr_all_on, mbr_reading, mbr_movie, mbr_all_off
+  - mbr_lights, mbr_readinglights, mbr_hallway
+  - mbath_lights, mbath_toilet, mbath_infrared, spacer, spacer, load_hidden_back

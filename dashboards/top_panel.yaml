@@ -1,0 +1,3 @@
+
+layout:
+  - occupancy, spacer, outside_temperature, inside_temperature, clock(2x1)

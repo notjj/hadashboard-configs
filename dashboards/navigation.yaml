@@ -1,0 +1,162 @@
+load_bathrooms:
+  widget_type: navigate
+  title: Bathrooms
+  icon_inactive: fa-shower
+  dashboard: Bathrooms
+  args:
+    timeout: 30
+    return: Main
+    
+load_bonus:
+  widget_type: navigate
+  title: Bonus Room
+  icon_inactive: fa-cube
+  dashboard: Bonus
+  args:
+    timeout: 30
+    return: Main
+  
+load_climate:
+  widget_type: navigate
+  title: Climate
+  icon_inactive: fa-cloud
+  dashboard: Climate
+  args:
+    timeout: 30
+    return: Main
+
+load_den:
+  widget_type: navigate
+  title: Den
+  icon_inactive: fa-television
+  dashboard: Den
+  args:
+    timeout: 30
+    return: Main
+
+load_downstairs:
+  widget_type: navigate
+  title: Downstairs 
+  icon_inactive: fa-home
+  dashboard: Downstairs
+  args:
+    timeout: 30
+    return: Main
+
+load_downstairs_back:
+  widget_type: navigate
+  title: Downstairs 
+  icon_inactive: mdi-loop
+  dashboard: Downstairs
+  args:
+    timeout: 30
+    return: Main
+
+load_garage:
+  widget_type: navigate
+  title: Garage
+  icon_inactive: fa-car
+  dashboard: Garage
+  args:
+    timeout: 30
+    return: Main
+
+load_guestrooms:
+  widget_type: navigate
+  title: Guestrooms
+  icon_inactive: mdi-hotel
+  dashboard: Guestrooms
+  args:
+    timeout: 30
+    return: Main
+  
+load_hidden:
+  widget_type: navigate
+  title: Hidden
+  widget_style: "background: #222; color: #222"
+  title_style: "color: #222"
+  icon_inactive: mdi-nil
+  dashboard: Hidden
+  args:
+    timeout: 30
+    return: Main
+
+load_hidden_back:
+  widget_type: navigate
+  title: Hidden
+  icon_inactive: mdi-loop
+  dashboard: Hidden
+  args:
+    timeout: 30
+    return: Main
+  
+load_kitchen:
+  widget_type: navigate
+  title: Kitchen
+  icon_inactive: fa-coffee
+  dashboard: Kitchen
+  args:
+    timeout: 30
+    return: Main
+  
+load_livingroom:
+  widget_type: navigate
+  title: Living Room
+  icon_inactive: mdi-sofa
+  dashboard: LivingRoom
+  args:
+    timeout: 30
+    return: Main
+
+load_main:
+  widget_type: navigate
+  title: Main Panel
+  icon_inactive: mdi-loop
+  dashboard: Main
+
+load_mbr:
+  widget_type: navigate
+  title: Master Bedroom
+  icon_inactive: mdi-sleep
+  dashboard: MBR
+  args:
+    timeout: 30
+    return: Main
+
+load_outside:
+  widget_type: navigate
+  title: Outside
+  icon_inactive: fa-tree
+  dashboard: Outside
+  args:
+    timeout: 30
+    return: Main
+
+load_settings:
+  widget_type: navigate
+  title: Settings
+  icon_inactive: fa-cogs
+  dashboard: Settings
+  args:
+    timeout: 30
+    return: Main
+
+load_upstairs:
+  widget_type: navigate
+  title: Upstairs
+  icon_inactive: fa-home
+  dashboard: Upstairs
+  args:
+    timeout: 30
+    return: Main
+  
+load_utility:
+  widget_type: navigate
+  title: Utility
+  icon_inactive: mdi-wrench
+  dashboard: Utility
+  args:
+    timeout: 30
+    return: Main
+
+  

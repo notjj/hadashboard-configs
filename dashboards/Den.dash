@@ -1,0 +1,13 @@
+title: Woodinville
+widget_dimensions: [115, 115]
+widget_margins: [3,3]
+columns: 6
+
+layout:
+  - include: items
+  - include: navigation
+  - include: top_panel
+  - spacer, den_all_on, den_dim, den_movie, den_all_off
+  - 
+  - den_front, den_middle, den_perimeter, spacer, fireplace, load_downstairs_back
+  

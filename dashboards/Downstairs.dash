@@ -1,0 +1,12 @@
+title: Woodinville
+widget_dimensions: [115, 115]
+widget_margins: [3,3]
+columns: 6
+
+layout:
+  - include: items
+  - include: navigation
+  - include: top_panel
+  - back_entryway, guest_hallway
+  -
+  - load_den, load_livingroom, load_kitchen, load_bonus, load_utility, load_main

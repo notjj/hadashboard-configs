@@ -1,0 +1,12 @@
+title: Woodinville
+widget_dimensions: [115, 115]
+widget_margins: [3,3]
+columns: 6
+
+layout:
+  - include: items
+  - include: navigation
+  - include: top_panel
+  - spacer, outside_all_on, entry_lights, nighttime_lights, house_and_garage_all_off, load_hidden
+  -
+  - load_downstairs, load_upstairs, load_outside, load_garage, load_climate, load_settings

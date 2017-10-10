@@ -1,0 +1,13 @@
+title: Woodinville
+widget_dimensions: [115, 115]
+widget_margins: [3,3]
+columns: 6
+
+layout:
+  - include: items
+  - include: navigation
+  - include: top_panel
+  - spacer, spacer, bonus_all_on, bonus_all_off
+  -
+  - bonus_left, bonus_right, spacer, spacer, spacer, load_downstairs_back
+  

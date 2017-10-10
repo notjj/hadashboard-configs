@@ -1,0 +1,12 @@
+title: Woodinville
+widget_dimensions: [115, 115]
+widget_margins: [3,3]
+columns: 6
+
+layout:
+  - include: items
+  - include: navigation
+  - include: top_panel
+  - outside_humidity, spacer, weather(2x2)
+  - inside_humidity
+  - spacer, spacer, ecobee(2x1), spacer, load_main

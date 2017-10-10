@@ -1,0 +1,13 @@
+title: Woodinville
+widget_dimensions: [115, 115]
+widget_margins: [3,3]
+columns: 6
+
+layout:
+  - include: items
+  - include: navigation
+  - include: top_panel
+  - laundry_hallway, laundry_room, spacer, spacer, crawlspace, entryway_closet
+  -
+  - spacer, spacer, spacer, spacer, spacer, load_downstairs_back
+  

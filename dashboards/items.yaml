@@ -1,0 +1,569 @@
+# Scenes
+
+bonus_all_off:
+  widget_type: scene
+  title: All Off
+  icon_off: mdi-lightbulb-on-outline
+  icon_on: mdi-lightbulb-on-outline  
+  entity: scene.bonus_all_off
+
+bonus_all_on:
+  widget_type: scene
+  title: All On
+  icon_off: mdi-lightbulb-on
+  icon_on: mdi-lightbulb-on
+  entity: scene.bonus_all_on
+    
+den_all_off:
+  widget_type: scene
+  title: All Off
+  icon_off: mdi-lightbulb-on-outline
+  icon_on: mdi-lightbulb-on-outline
+  entity: scene.den_all_off
+  
+den_all_on:
+  widget_type: scene
+  title: All On
+  icon_off: mdi-lightbulb-on
+  icon_on: mdi-lightbulb-on
+  entity: scene.den_all_on
+  
+den_dim:
+  widget_type: scene
+  title: Dim
+  icon_off: mdi-contrast-circle
+  icon_on: mdi-contrast-circle
+  entity: scene.den_dim
+
+den_movie:
+  widget_type: scene
+  title: Movie
+  icon_off: fa-television
+  icon_on: fa-television
+  entity: scene.den_movie
+  
+entry_lights:
+  widget_type: scene
+  title: Entry Lights
+  icon_on: fa-sign-in
+  icon_off: fa-sign-in
+  entity: scene.entry_lights
+
+house_and_garage_all_off:
+  widget_type: scene
+  title: All Off
+  icon_on: fa-close
+  icon_off: fa-close
+  entity: scene.house_and_garage__all_off
+  
+kitallon:
+  widget_type: scene
+  title: All On
+  icon_off: mdi-lightbulb-on
+  icon_on: mdi-lightbulb-on
+  entity: scene.kit_all_on
+
+kitdim:
+  widget_type: scene
+  title: Dim
+  icon_off: mdi-contrast-circle
+  icon_on: mdi-contrast-circle
+  entity: scene.kit_dim
+
+kitnormal:
+  widget_type: scene
+  title: Normal
+  icon_off: mdi-lightbulb-on
+  icon_on: mdi-lightbulb-on
+  entity: scene.kit_normal
+
+kitoff:
+  widget_type: scene
+  title: All Off
+  icon_off: mdi-lightbulb-on-outline
+  icon_on: mdi-lightbulb-on-outline  
+  entity: scene.kit_off
+
+mbr_all_off:
+  widget_type: scene
+  title: All Off
+  icon_off: mdi-lightbulb-on-outline
+  icon_on: mdi-lightbulb-on-outline
+  entity: scene.mbr_all_off
+  
+mbr_all_on:
+  widget_type: scene
+  title: All On
+  icon_off: mdi-lightbulb-on
+  icon_on: mdi-lightbulb-on
+  entity: scene.mbr_all_on
+  
+mbr_movie:
+  widget_type: scene
+  title: Movie
+  icon_off: fa-television
+  icon_on: fa-television
+  entity: scene.mbr_movie
+  
+mbr_reading:
+  widget_type: scene
+  title: Reading
+  icon_off: mdi-book-open-page-variant
+  icon_on: mdi-book-open-page-variant
+  entity: scene.mbr_reading
+
+nighttime_lights:
+  widget_type: scene
+  title: Nighttime Lights
+  icon_on: fa-moon-o
+  icon_off: fa-moon-o
+  entity: scene.nighttime_lights
+
+outside_all_off:
+  widget_type: scene
+  title: Outside - All On
+  icon_on: mdi-pine-tree-box
+  icon_off: mdi-pine-tree-box
+  entity: scene.outside__all_off
+
+outside_all_on:
+  widget_type: scene
+  title: Outside - All
+  icon_on: mdi-pine-tree
+  icon_off: mdi-pine-tree
+  entity: scene.outside__all_on
+
+
+
+# Input Booleans
+
+auto_away:
+  title: Home/Away Automation
+  widget_type: input_boolean
+  use_hass_icon: 1
+  entity: input_boolean.auto_away
+
+bathroom_timeouts:
+  title: Bathroom Light Timeouts
+  widget_type: input_boolean
+  use_hass_icon: 1
+  entity: input_boolean.bathroom_timeouts
+
+dawn_dusk:
+  title: Dawn/Dusk Lights
+  widget_type: input_boolean
+  use_hass_icon: 1
+  entity: input_boolean.dawn_dusk
+
+general_timeouts:
+  title: General Light Timeouts
+  widget_type: input_boolean
+  use_hass_icon: 1
+  entity: input_boolean.general_timeouts
+
+mbrmotion_automations:
+  title: Master Bath Motion
+  widget_type: input_boolean
+  use_hass_icon: 1
+  entity: input_boolean.mbrmotion_automations
+
+occupancy:
+  widget_type: input_boolean
+  widget_style: "background: #222"
+  use_hass_icon: 1
+  title: Occupancy
+  entity: input_boolean.occupancy
+
+
+# Sensors
+
+inside_humidity:
+  widget_type: gauge
+  widget_style: "background: #222"
+  title: Inside Humidity
+  min: 0
+  max: 100
+  units: "%"
+  entity: sensor.home_humidity
+
+inside_temperature:
+  widget_type: sensor
+  widget_style: "background: #222"
+  title: Inside
+  units: "&deg;F"
+  entity: sensor.home_temperature
+
+outside_humidity:
+  widget_type: gauge
+  widget_style: "background: #222"
+  title: Outside Humidity
+  min: 0
+  max: 100
+  units: "%"
+  entity: sensor.dark_sky_humidity
+
+outside_temperature:
+  widget_type: sensor
+  widget_style: "background: #222"
+  title: Outside
+  units: "&deg;F"
+  entity: sensor.dark_sky_temperature
+
+weather:
+  widget_type: weather
+  widget_style: "background: #222"
+  title: Weather
+  entity: weather.weather
+
+# Climate
+
+ecobee:
+  widget_type: climate
+  title: Climate Control
+  entity: climate.home
+
+# Clock
+
+clock:
+  widget_type: clock
+  widget_style: "background: #222"
+  entity: clock.clock
+
+# Covers
+
+awning:
+  widget_type: cover
+  title: Porch Awning 
+  icon_on: mdi-arrow-expand-left
+  icon_off: mdi-arrow-collapse-right
+  icon_style_active: "color: #fff"
+  entity: cover.awning_switch
+
+lrsolarleft:
+  widget_type: cover
+  title: Left Solar Shade
+  icon_on: mdi-arrow-expand-down
+  icon_off: mdi-arrow-collapse-up
+  icon_style_active: "color: #fff"
+  icon_style_inactive: "color: #fff"
+  entity: cover.lrsolarleft_switch
+
+lrsolarright:
+  widget_type: cover
+  title: Right Solar Shade
+  icon_on: mdi-arrow-expand-down
+  icon_off: mdi-arrow-collapse-up
+  icon_style_active: "color: #fff"
+  icon_style_inactive: "color: #fff"
+  entity: cover.lrsolarright_switch
+
+
+# Lights and Switches
+
+back_entryway:
+  widget_type: switch
+  title: Back Entryway
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.backentryway_switch
+
+bar_lights:
+  widget_type: switch
+  title: Bar
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: light.barlights_level
+
+bonus_left:
+  widget_type: switch
+  title: Bonus Left
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: light.bonusleft_level
+
+bonus_right:
+  widget_type: switch
+  title: Bonus Left
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: light.bonusright_level
+
+counter_lights:
+  widget_type: switch
+  title: Cabinet
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.kitcabinetlights_switch
+
+crawlspace:
+  widget_type: switch
+  title: Crawlspace
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.crawlspace_switch
+
+den_front:
+  widget_type: switch
+  title: Den Front
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: light.denfront_level
+  
+den_middle:
+  widget_type: switch
+  title: Den Middle
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: light.denmiddle_level
+
+den_perimeter:
+  widget_type: switch
+  title: Den Side
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: light.denperimeter_level
+  
+diningroom:
+  widget_type: switch
+  title: Dining Room
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.diningroom_switch
+
+driveway_lights:
+  widget_type: switch
+  title: Driveway
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.drivewaymotion_switch
+
+entryway_closet:
+  widget_type: switch
+  title: Entryway Closet
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.entrywaycloset_switch
+  
+exterior_lights:
+  widget_type: switch
+  title: Exterior Lights
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.exteriorhouse_switch
+
+fireplace:
+  widget_type: switch
+  use_hass_icon: 1
+  title: Fireplace
+  entity: switch.fireplace_switch
+  
+garage_motion:
+  widget_type: switch
+  title: Garage Motion
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.garagemotion_switch
+  
+garagedownstairs:
+  widget_type: switch
+  title: Downstairs
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.garagedownstairs_switch
+
+garageupstairs:
+  widget_type: switch
+  title: Upstairs
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.garageupstairs_switch
+
+guest_hallway:
+  widget_type: switch
+  title: Guest Hallway
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.guesthallway_switch
+
+island_lights:
+  widget_type: switch
+  title: Island
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: light.kitislandlights_level
+
+laundry_hallway:
+  widget_type: switch
+  title: Laundry Hallway
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.laundryhallway_switch
+
+laundry_room:
+  widget_type: switch
+  title: Laundry Room
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.laundryroom_switch
+  
+left_entryway:
+  widget_type: switch
+  title: Entryway
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.leftporchentryway_switch
+
+lrlights:
+  widget_type: switch
+  title: Living Room
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.livingroomoutlet_switch
+
+office:
+  widget_type: switch
+  title: Office
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.officelights_switch
+
+patio_lights:
+  widget_type: switch
+  title: Right Patio
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.patiolight_switch
+  
+porch_back:
+  widget_type: switch
+  title: Back Porch
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.backporch_switch
+
+porch_left:
+  widget_type: switch
+  title: Left Porch
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.leftfrontporch_switch
+
+porch_right:
+  widget_type: switch
+  title: Right Porch
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.rightfrontporch_switch
+
+sitting_area:
+  widget_type: switch
+  title: Sitting Area
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.kitsittingarea_switch
+
+stairs_downlights:
+  widget_type: switch
+  title: Stairs Downlights
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.stairsdownlights_switch
+
+stairs_uplights:
+  widget_type: switch
+  title: Stairs Uplights
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.stairsuplights_switch
+
+walkway_lights:
+  widget_type: switch
+  title: Walkway 
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: light.kitwalkwaylights_level
+
+mbr_readinglights:
+  widget_type: switch
+  title: Reading 
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: light.mbrreadinglights_level
+  
+mbr_hallway:
+  widget_type: switch
+  title: Hallway 
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: light.mbrhalllights_level
+
+mbr_lights:
+  widget_type: switch
+  title: Master Lights 
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.mbroutlets_switch
+
+mbath_lights:
+  widget_type: switch
+  title: Bathroom 
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: light.mbrbathroom_level
+  
+mbath_toilet:
+  widget_type: switch
+  title: Toilet Light 
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.mbrbathtoilet_switch
+  
+mbath_infrared:
+  widget_type: switch
+  title: Infrared 
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.mbrbathinfrared_switch
+  
+guest_bathroom:
+  widget_type: switch
+  title: Guest Bathroom 
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: light.guestbathroom_level
+  
+den_bathroom:
+  widget_type: switch
+  title: Den Bathroom
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.denbathroom_switch
+  
+front_guestroom:
+  widget_type: switch
+  title: Front Guestroom
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.frontguestroom_switch
+  
+front_guestroom_closet:
+  widget_type: switch
+  title: Front Guestroom Closet
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.frontguestcloset_switch
+
+back_guestroom:
+  widget_type: switch
+  title: Back Guestroom
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.backguestroom_switch
+  
+back_guestroom_closet:
+  widget_type: switch
+  title: Back Guestroom Closet
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.backguestcloset_switch
+  
