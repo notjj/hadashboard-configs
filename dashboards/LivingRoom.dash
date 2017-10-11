@@ -9,5 +9,5 @@ layout:
   - include: top_panel
   - left_entryway, lrlights, diningroom
   -
-  - lrsolarleft, lrsolarright, spacer, spacer, spacer, load_downstairs_back
+  - lrsolarleft, lrsolarright, spacer, entryway_closet, spacer, load_downstairs_back
 

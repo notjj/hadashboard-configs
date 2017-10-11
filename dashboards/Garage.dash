@@ -9,4 +9,4 @@ layout:
   - include: top_panel
   - garagedownstairs, garageupstairs
   -
-  - spacer, spacer, spacer, spacer, spacer, load_main
+  - lhgaragedoor, rhgaragedoor, spacer, spacer, spacer, load_main
