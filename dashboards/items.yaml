@@ -293,6 +293,20 @@ back_entryway:
   icon_off: fa-lightbulb-o
   entity: switch.backentryway_switch
 
+back_guestroom:
+  widget_type: switch
+  title: Back Guestroom
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.backguestroom_switch
+  
+back_guestroom_closet:
+  widget_type: switch
+  title: Back Guestroom Closet
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.backguestcloset_switch
+  
 bar_lights:
   widget_type: switch
   title: Bar
@@ -328,6 +342,13 @@ crawlspace:
   icon_off: fa-lightbulb-o
   entity: switch.crawlspace_switch
 
+den_bathroom:
+  widget_type: switch
+  title: Den Bathroom
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: light.denbathroom_level
+  
 den_front:
   widget_type: switch
   title: Den Front
@@ -363,6 +384,20 @@ driveway_lights:
   icon_off: fa-lightbulb-o
   entity: switch.drivewaymotion_switch
 
+driveway_lights:
+  widget_type: switch
+  title: Driveway Lights
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.drivewaymotion_switch
+  
+entryway_closet:
+  widget_type: switch
+  title: Entryway Closet
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.entrywaycloset_switch
+
 entryway_closet:
   widget_type: switch
   title: Entryway Closet
@@ -383,6 +418,20 @@ fireplace:
   title: Fireplace
   entity: switch.fireplace_switch
   
+front_guestroom:
+  widget_type: switch
+  title: Front Guestroom
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.frontguestroom_switch
+  
+front_guestroom_closet:
+  widget_type: switch
+  title: Front Guestroom Closet
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.frontguestcloset_switch
+
 garage_motion:
   widget_type: switch
   title: Garage Motion
@@ -404,6 +453,13 @@ garageupstairs:
   icon_off: fa-lightbulb-o
   entity: switch.garageupstairs_switch
 
+guest_bathroom:
+  widget_type: switch
+  title: Guest Bathroom 
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: light.guestbathroom_level
+  
 guest_hallway:
   widget_type: switch
   title: Guest Hallway
@@ -418,6 +474,13 @@ island_lights:
   icon_off: fa-lightbulb-o
   entity: light.kitislandlights_level
 
+landscape_lights:
+  widget_type: switch
+  title: Landscape Lights
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.landscapelights_switch
+  
 laundry_hallway:
   widget_type: switch
   title: Laundry Hallway
@@ -437,7 +500,7 @@ left_entryway:
   title: Entryway
   icon_on: fa-lightbulb-o
   icon_off: fa-lightbulb-o
-  entity: switch.leftporchentryway_switch
+  entity: switch.leftporchentrywa_switch
 
 lrlights:
   widget_type: switch
@@ -446,6 +509,48 @@ lrlights:
   icon_off: fa-lightbulb-o
   entity: switch.livingroomoutlet_switch
 
+mbath_infrared:
+  widget_type: switch
+  title: Infrared 
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.mbrbathinfrared_switch
+  
+mbath_lights:
+  widget_type: switch
+  title: Bathroom 
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: light.mbrbathroom_level
+  
+mbath_toilet:
+  widget_type: switch
+  title: Toilet Light 
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.mbrbathtoilet_switch
+  
+mbr_hallway:
+  widget_type: switch
+  title: Hallway 
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: light.mbrhalllights_level
+
+mbr_lights:
+  widget_type: switch
+  title: Master Lights 
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: switch.mbroutlets_switch
+
+mbr_readinglights:
+  widget_type: switch
+  title: Reading 
+  icon_on: fa-lightbulb-o
+  icon_off: fa-lightbulb-o
+  entity: light.mbrreadinglights_level
+  
 office:
   widget_type: switch
   title: Office
@@ -509,93 +614,6 @@ walkway_lights:
   icon_off: fa-lightbulb-o
   entity: light.kitwalkwaylights_level
 
-mbr_readinglights:
-  widget_type: switch
-  title: Reading 
-  icon_on: fa-lightbulb-o
-  icon_off: fa-lightbulb-o
-  entity: light.mbrreadinglights_level
-  
-mbr_hallway:
-  widget_type: switch
-  title: Hallway 
-  icon_on: fa-lightbulb-o
-  icon_off: fa-lightbulb-o
-  entity: light.mbrhalllights_level
 
-mbr_lights:
-  widget_type: switch
-  title: Master Lights 
-  icon_on: fa-lightbulb-o
-  icon_off: fa-lightbulb-o
-  entity: switch.mbroutlets_switch
-
-mbath_lights:
-  widget_type: switch
-  title: Bathroom 
-  icon_on: fa-lightbulb-o
-  icon_off: fa-lightbulb-o
-  entity: light.mbrbathroom_level
   
-mbath_toilet:
-  widget_type: switch
-  title: Toilet Light 
-  icon_on: fa-lightbulb-o
-  icon_off: fa-lightbulb-o
-  entity: switch.mbrbathtoilet_switch
   
-mbath_infrared:
-  widget_type: switch
-  title: Infrared 
-  icon_on: fa-lightbulb-o
-  icon_off: fa-lightbulb-o
-  entity: switch.mbrbathinfrared_switch
-  
-guest_bathroom:
-  widget_type: switch
-  title: Guest Bathroom 
-  icon_on: fa-lightbulb-o
-  icon_off: fa-lightbulb-o
-  entity: light.guestbathroom_level
-  
-den_bathroom:
-  widget_type: switch
-  title: Den Bathroom
-  icon_on: fa-lightbulb-o
-  icon_off: fa-lightbulb-o
-  entity: switch.denbathroom_switch
-  
-front_guestroom:
-  widget_type: switch
-  title: Front Guestroom
-  icon_on: fa-lightbulb-o
-  icon_off: fa-lightbulb-o
-  entity: switch.frontguestroom_switch
-  
-front_guestroom_closet:
-  widget_type: switch
-  title: Front Guestroom Closet
-  icon_on: fa-lightbulb-o
-  icon_off: fa-lightbulb-o
-  entity: switch.frontguestcloset_switch
-
-back_guestroom:
-  widget_type: switch
-  title: Back Guestroom
-  icon_on: fa-lightbulb-o
-  icon_off: fa-lightbulb-o
-  entity: switch.backguestroom_switch
-  
-back_guestroom_closet:
-  widget_type: switch
-  title: Back Guestroom Closet
-  icon_on: fa-lightbulb-o
-  icon_off: fa-lightbulb-o
-  entity: switch.backguestcloset_switch
-  
-entryway_closet:
-  widget_type: switch
-  title: Entryway Closet
-  icon_on: fa-lightbulb-o
-  icon_off: fa-lightbulb-o
-  entity: switch.entrywaycloset_switch

@@ -9,4 +9,4 @@ layout:
   - include: top_panel
   - spacer, spacer, outside_all_on, outside_all_off
   - spacer, porch_left, porch_right, porch_back, patio_lights
-  - awning, spacer, exterior_lights, garage_motion, spacer, load_main
+  - awning, driveway_lights, exterior_lights, garage_motion, landscape_lights, load_main
