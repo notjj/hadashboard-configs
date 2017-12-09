@@ -1,0 +1,12 @@
+title: Woodinville
+widget_dimensions: [115, 115]
+widget_margins: [3,3]
+columns: 6
+
+layout:
+  - include: items
+  - include: navigation
+  - include: top_panel
+  - media_kitchen(2x1), media_livingroom(2x1), media_rightporch(2x1)
+  - 
+  - spacer, spacer, spacer, spacer, spacer, load_main

@@ -159,4 +159,11 @@ load_utility:
     timeout: 30
     return: Main
 
-  
+load_media:
+  widget_type: navigate
+  title: Media
+  icon_inactive: fa-music
+  dashboard: Media
+  args:
+    timeout: 30
+    return: Main
