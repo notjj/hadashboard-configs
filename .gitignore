@@ -1,4 +1,5 @@
-appdaemon.yaml
+secrets.yaml
 compiled
+.apdisk
 **/__pycache__
 **/._*

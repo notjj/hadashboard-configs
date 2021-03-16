@@ -7,6 +7,6 @@ layout:
   - include: items
   - include: navigation
   - include: top_panel
-  - auto_away, dawn_dusk, bathroom_timeouts, general_timeouts
+  - auto_away, assume_home, bathroom_timeouts
   -
   - spacer, spacer, spacer, spacer, spacer, load_main

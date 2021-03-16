@@ -7,6 +7,6 @@ layout:
   - include: items
   - include: navigation
   - include: top_panel
-  - garagedownstairs, garageairfilter, spacer, spacer, garagestairs, garageupstairs
-  -
-  - lhgaragedoor, rhgaragedoor, spacer, spacer, spacer, load_main
+  - spacer, gate_camera(4x2) 
+  - 
+  - spacer, spacer, spacer, spacer, spacer, load_main

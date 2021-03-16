@@ -6,7 +6,8 @@ load_bathrooms:
   args:
     timeout: 30
     return: Main
-    
+    sticky: 1
+ 
 load_bonus:
   widget_type: navigate
   title: Bonus Room
@@ -15,7 +16,8 @@ load_bonus:
   args:
     timeout: 30
     return: Main
-  
+    sticky: 1
+
 load_climate:
   widget_type: navigate
   title: Climate
@@ -24,15 +26,27 @@ load_climate:
   args:
     timeout: 30
     return: Main
+    sticky: 1
 
 load_den:
   widget_type: navigate
   title: Den
-  icon_inactive: fa-television
+  icon_inactive: fa-tv
   dashboard: Den
   args:
     timeout: 30
     return: Main
+    sticky: 1
+
+load_gate:
+  widget_type: navigate
+  title: Gate
+  icon_inactive: fa-dungeon
+  dashboard: Gate
+  args:
+    timeout: 30
+    return: Main
+    sticky: 1
 
 load_downstairs:
   widget_type: navigate
@@ -42,15 +56,17 @@ load_downstairs:
   args:
     timeout: 30
     return: Main
+    sticky: 1
 
 load_downstairs_back:
   widget_type: navigate
   title: Downstairs 
-  icon_inactive: mdi-loop
+  icon_inactive: mdi-replay
   dashboard: Downstairs
   args:
     timeout: 30
     return: Main
+    sticky: 1
 
 load_garage:
   widget_type: navigate
@@ -60,6 +76,7 @@ load_garage:
   args:
     timeout: 30
     return: Main
+    sticky: 1
 
 load_guestrooms:
   widget_type: navigate
@@ -69,6 +86,7 @@ load_guestrooms:
   args:
     timeout: 30
     return: Main
+    sticky: 1
   
 load_hidden:
   widget_type: navigate
@@ -80,15 +98,17 @@ load_hidden:
   args:
     timeout: 30
     return: Main
+    sticky: 1
 
 load_hidden_back:
   widget_type: navigate
   title: Hidden
-  icon_inactive: mdi-loop
+  icon_inactive: mdi-replay
   dashboard: Hidden
   args:
     timeout: 30
     return: Main
+    sticky: 1
   
 load_kitchen:
   widget_type: navigate
@@ -98,6 +118,7 @@ load_kitchen:
   args:
     timeout: 30
     return: Main
+    sticky: 1
   
 load_livingroom:
   widget_type: navigate
@@ -107,11 +128,12 @@ load_livingroom:
   args:
     timeout: 30
     return: Main
+    sticky: 1
 
 load_main:
   widget_type: navigate
   title: Main Panel
-  icon_inactive: mdi-loop
+  icon_inactive: mdi-replay
   dashboard: Main
 
 load_mbr:
@@ -122,6 +144,7 @@ load_mbr:
   args:
     timeout: 30
     return: Main
+    sticky: 1
 
 load_outside:
   widget_type: navigate
@@ -131,6 +154,7 @@ load_outside:
   args:
     timeout: 30
     return: Main
+    sticky: 1
 
 load_settings:
   widget_type: navigate
@@ -140,6 +164,7 @@ load_settings:
   args:
     timeout: 30
     return: Main
+    sticky: 1
 
 load_upstairs:
   widget_type: navigate
@@ -149,6 +174,7 @@ load_upstairs:
   args:
     timeout: 30
     return: Main
+    sticky: 1
   
 load_utility:
   widget_type: navigate
@@ -158,6 +184,7 @@ load_utility:
   args:
     timeout: 30
     return: Main
+    sticky: 1
 
 load_media:
   widget_type: navigate
@@ -167,3 +194,4 @@ load_media:
   args:
     timeout: 30
     return: Main
+    sticky: 1

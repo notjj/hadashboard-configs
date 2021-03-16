@@ -1,15 +1,24 @@
 secrets: /conf/secrets.yaml
-log:
-  logfile: STDOUT
-  errorfile: STDERR
+logs:
+  main_log: 
+    filename: STDOUT
+  error_log: 
+    filename: STDOUT
 appdaemon:
-  threads: 10
   apiport: 5001
+  time_zone: America/Los_Angeles
+  latitude: !secret latitude 
+  longitude: !secret longitude 
+  elevation: 183
   plugins:
     HASS:
       type: hass
       ha_url: https://woodinville.loopstart.org:8123
-      ha_key: EPAK8tWwXY4xCAk
-hadashboard:
-  dash_url: http://172.16.5.5:5050
+      cert_verify: False
+      token: !secret home_assistant_token 
+      namespace: default
+api:
+http:
+    url: !secret dashboard_local_url 
 
+hadashboard:
