@@ -1,0 +1,15 @@
+secrets: /conf/secrets.yaml
+log:
+  logfile: STDOUT
+  errorfile: STDERR
+appdaemon:
+  threads: 10
+  apiport: 5001
+  plugins:
+    HASS:
+      type: hass
+      ha_url: https://woodinville.loopstart.org:8123
+      ha_key: EPAK8tWwXY4xCAk
+hadashboard:
+  dash_url: http://172.16.5.5:5050
+
